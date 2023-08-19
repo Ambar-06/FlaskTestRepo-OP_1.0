@@ -14,7 +14,7 @@ URL : http://127.0.0.1:5000/generate_long_lived_token \
 Method : POST\
 Header : *BLANK*\
 Body :  {\
-    "access_token": *"<OBTAINED_FROM_FIRST_THE_RESPONSE_OF_FIRST_REQUEST>"*\
+    "access_token": *"<OBTAINED_FROM_THE_FIRST_RESPONSE_OF_FIRST_REQUEST>"*\
 }\
 
 ##Sample POSTMAN Requests --------- 3\
