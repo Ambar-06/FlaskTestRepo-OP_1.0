@@ -6,7 +6,7 @@ Method : POST\
 Header : *BLANK*\
 Body :  {\
     "Email": "ambar@onecorp.co.in",\
-    "Key": "45c376aef58f268d7212652a87ad1d6de3647e63e9daf2e5d04b"\
+    "Key": "<SECRET_KEY>"\
 }\
 
 ##Sample POSTMAN Requests --------- 2\
