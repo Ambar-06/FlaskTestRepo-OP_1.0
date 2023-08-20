@@ -48,7 +48,7 @@ URL : http://127.0.0.1:5000/UpdateUser \
 Method : POST\
 Header : Authorization : Bearer *<LONG-LIVE-TOKEN>*\
 Body :  {\
-    "UserToken" : "c7967144-3ec3-11ee-bbe7-0211585a676a",     -- REQUIRED, Restt other fields are Optional\
+    "UserToken" : "",     -- REQUIRED, Restt other fields are Optional\
     "" : "",\
     "" : "", ...\
 }
