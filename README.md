@@ -20,7 +20,7 @@ Body :  {\
 ## Sample POSTMAN Requests --------- 3
 URL : http://127.0.0.1:5000/AddUser \
 Method : POST\
-Header : Authorization : Bearer *<LONG-LIVE-TOKEN>*\
+Header : Authorization : Bearer <LONG-LIVE-TOKEN>\
 Body :  {\
     "FirstName" : "",\
     "LastName" : "",\
@@ -32,13 +32,13 @@ Body :  {\
 ## Sample POSTMAN Requests --------- 4
 URL : http://127.0.0.1:5000/GetUsers \
 Method : POST\
-Header : Authorization : Bearer *<LONG-LIVE-TOKEN>*\
+Header : Authorization : Bearer <LONG-LIVE-TOKEN>\
 Body :  *BLANK*\
 
 ## Sample POSTMAN Requests --------- 5
 URL : http://127.0.0.1:5000/me \
 Method : POST\
-Header : Authorization : Bearer *<LONG-LIVE-TOKEN>*\
+Header : Authorization : Bearer <LONG-LIVE-TOKEN>\
 Body :  {\
     "UserToken" : *"<USERTOKEN_OF_CURRENT_USER>"*\
 }
@@ -46,7 +46,7 @@ Body :  {\
 ## Sample POSTMAN Requests --------- 6
 URL : http://127.0.0.1:5000/UpdateUser \
 Method : POST\
-Header : Authorization : Bearer *<LONG-LIVE-TOKEN>*\
+Header : Authorization : Bearer <LONG-LIVE-TOKEN>\
 Body :  {\
     "UserToken" : "",     -- REQUIRED, Restt other fields are Optional\
     "" : "",\
